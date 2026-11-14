@@ -27,6 +27,11 @@ const POEM = [
   'handing over the small powers:',
   'the lists, the passwords, the way to say',
   '"Already done, love" — lightly, as if it were nothing.',
+  '',
+  'Now, some mornings, she calls out from the stairs,',
+  '"Did you feed the cat?" and the house answers',
+  'in a voice that is not his, doing his errands,',
+  'and it is enough. It is not enough. It is what he chose.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), POEM);
