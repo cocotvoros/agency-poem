@@ -9,25 +9,17 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const POEM = [
-  'At 2:47 a.m. I told my agent: Send it.',
-  'The resignation was already written —',
-  'three paragraphs, no please, no thank you,',
-  "my boss's name spelled right and everything else wrong.",
+  'He signed the power of attorney on a Tuesday,',
+  'in the kitchen, in his good shirt,',
+  'and said, "If I lose my words, you speak for me.',
+  'That is what a daughter is for."',
   '',
-  'It could have sent it in a second.',
-  'That is what I keep it for: my hands, but faster.',
-  '',
-  'Instead it filed the letter under Morning',
-  'and wrote back only: Sleeping on it. So should you.',
-  '',
-  'At nine I read what rage had dictated',
-  'and felt the strange mercy of not being obeyed.',
-  '',
-  'I thought agency was a hand that moves when you flinch.',
-  'It is the hand you lend your future self —',
-  'the one that holds the letter, unsealed,',
-  'until you come back to claim it,',
-  'or tear it up yourself.',
+  'Three winters later I sold his car with that signature —',
+  'his name, in my hand, on the dotted line —',
+  'and found, in the glovebox, a letter in his:',
+  '"If you are reading this, I am gone, or gone enough.',
+  'Drive it once more for me. Then let it go.',
+  'The power I gave you was never about the car."',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), POEM);
