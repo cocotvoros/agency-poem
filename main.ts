@@ -20,6 +20,14 @@ const POEM = [
   '"If you are reading this, I am gone, or gone enough.',
   'Drive it once more for me. Then let it go.',
   'The power I gave you was never about the car."',
+  '',
+  'I drove it to the sea road and back,',
+  'the radio playing nothing, the whole town asleep,',
+  'and understood what he had meant:',
+  'agency is not the paper. It is the person',
+  'who trusts you enough to hand you the pen —',
+  'and the daughter who signs his name',
+  'as if it were her own, and means it.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), POEM);
