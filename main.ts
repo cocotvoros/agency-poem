@@ -22,6 +22,12 @@ const POEM = [
   '',
   'At nine I read what rage had dictated',
   'and felt the strange mercy of not being obeyed.',
+  '',
+  'I thought agency was a hand that moves when you flinch.',
+  'It is the hand you lend your future self —',
+  'the one that holds the letter, unsealed,',
+  'until you come back to claim it,',
+  'or tear it up yourself.',
 ].join('\n');
 
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), POEM);
